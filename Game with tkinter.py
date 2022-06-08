@@ -34,7 +34,7 @@ if __name__=='__main__':
     scoreLabel.pack()
     timeLabel = Label(root, text = 'Time Left : '+str(time), font=('Helvetica' , 12))
     timeLabel.pack()
-    colour = Label(root, font=('Helevetica',12))
+    colour = Label(root, font=('pink',12))
     colour.pack()
     colour_entry = Entry(root)
     colour_entry.focus_set()
